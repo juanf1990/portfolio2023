@@ -36,50 +36,50 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "London, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying. I immediately went on the job hunting as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "London, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 2 years in open source projects job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "London, UK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Top-8.uk",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this startup project for 1 years. Users can search for the top seller products online.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Project Booki on OpenClassRoom",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Booking board for travellers. I was the front-end developer. Advanced styling in CSS skills.",
+    tags: ["HTMS", "CSS", "Javascript"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Project eConnect on OpenClassRoom",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A social app for quick post sharing for internal business staff. It shows which posts have already been read by the user, and social media post limits.",
+    tags: ["React", "Next.js", "NoSQL", "Tailwind", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
